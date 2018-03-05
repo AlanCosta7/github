@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="assine_j">Assine já!</string>
+    <string name="cart_o_visa">Cartão VISA</string>
+    <string name="cart_o_master_card">Cartão Master Card</string>
+    <string name="n_mero_do_cart_o">Número do cartão</string>
+    <string name="nome_do_propriet_rio_cart_o">Nome do proprietário cartão</string>
+</resources>

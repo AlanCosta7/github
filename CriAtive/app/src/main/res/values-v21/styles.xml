@@ -1,0 +1,11 @@
+<resources>
+
+    <style name="AppTheme.NoActionBar" parent="Theme.AppCompat.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:statusBarColor">@color/bootstrap_gray_dark</item>
+        <item name="android:colorForeground">@color/bootstrap_brand_info</item>
+        <item name="colorPrimary">@color/bootstrap_brand_info</item>
+        <item name="colorPrimaryDark">#FF000000</item>
+    </style>
+</resources>

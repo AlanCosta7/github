@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "733473843638",
+    "firebase_url": "https://criative-2018-js.firebaseio.com",
+    "project_id": "criative-2018-js",
+    "storage_bucket": "criative-2018-js.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:733473843638:android:d449c9e74afdb3fe",
+        "android_client_info": {
+          "package_name": "br.com.juventudesociedade.criative"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "733473843638-9ft4t287gdhkv15pbqcr61hq7dig29r8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.juventudesociedade.criative",
+            "certificate_hash": "28788c712f4b5160009db185c716489ab23930ae"
+          }
+        },
+        {
+          "client_id": "733473843638-ocbtgb73hmne531054bp760kmqfv4ujh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFaKaV3KnjW72bqj2FGAGvr49EdLmotv0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "733473843638-ocbtgb73hmne531054bp760kmqfv4ujh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

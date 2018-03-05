@@ -1,0 +1,97 @@
+
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFFFF"
+    tools:context="br.com.juventudesociedade.criative.fragment.CartaFragment">
+<android.support.constraint.ConstraintLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Carta de Amor"
+        android:textAlignment="center"
+        android:textColor="@color/bootstrap_brand_danger"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText,MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:text="Me diz aqui: quanto tempo vc não escreve uma carta de amor pra alguém?"
+        android:textColor="@android:color/holo_blue_light"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:text="Nesses tempos altamente tecnológicos, onde a virtualidade muitas das vezes rouba o lugar do abraço e da presença, comunicamos nossos afetos através de posts e tweets e esquecemos de como o amor pode e deve ser artesanal, feito um a um, à mão.  Pra exercitar a nossa humanidade, te convido agora a colocar em prática a alteridade, a empatia e o serviço em amor ao outro, sobre os quais tanto falamos. Te convido a percorrer em Deus afetos e encontrar, em Cristo, amor por essa gente que nos causa medo e terror.  Quero te convidar a escrever uma carta de amor pra alguém que você nunca viu, e que agora está em privação de liberdade, em alguma cadeia desse estado. Escrever uma carta de amor pra alguém que vc não sabe o nome, mas que por estar em um espaço de correção, você já imagina que seja alguém que certamente você não ousaria nem dar um abraço.  Esse convite é uma linda e profunda oportunidade de se conectar com o Espírito Santo de Deus. Escreva essa carta orando, pedindo ao Senhor que te revele o amor que brota do coração de Deus. Esse amor gratuito e desinteressado em retorno.  Escreva uma carta de amor."
+        android:textColor="@color/textoP"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        tools:ignore="HardcodedText" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_carta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:layout_marginEnd="32dp"
+        android:clickable="true"
+        android:src="@drawable/ic_favorite_border_black_24dp"
+        app:backgroundTint="@color/bootstrap_brand_danger"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginRight="32dp"
+        android:focusable="true" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/holo_blue_light"
+        android:padding="10dp"
+        android:text="Para a realização dessa tarefa você deverá enviar um email para:  juventudesesociedade@gmail.com e profabiola.oliveira@gmail.com."
+        android:textColor="#FF000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        tools:ignore="HardcodedText" />
+
+</android.support.constraint.ConstraintLayout>
+</FrameLayout>

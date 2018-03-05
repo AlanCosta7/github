@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+        <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_dashboard"
+            android:title="Dashboard"
+            android:icon="@drawable/ic_dashboard_black_24dp"
+            tools:ignore="HardcodedText" />
+        <item
+            android:id="@+id/nav_criative"
+            android:title="CriAtive"
+            android:icon="@drawable/ic_view_array_black_24dp"
+            tools:ignore="HardcodedText" />
+        <item
+            android:id="@+id/nav_ambVideos"
+            android:title="Plus+ Vídeos"
+            android:icon="@drawable/ic_menu_slideshow"
+            tools:ignore="HardcodedText" />
+        <item
+            android:id="@+id/nav_ambTextos"
+            android:title="Plus+ Textos"
+            android:icon="@drawable/ic_picture_as_pdf_black_24dp"
+            tools:ignore="HardcodedText" />
+        <item
+            android:id="@+id/nav_principal"
+            android:title="Sobre"
+            android:icon="@drawable/ic_info_black_24dp"
+            tools:ignore="HardcodedText" />
+        </group>
+
+        <item
+            android:id="@+id/nav_carta"
+            android:icon="@drawable/ic_mail_outline_black_24dp"
+            android:title="Carta de Amor"
+            tools:ignore="HardcodedText" />
+        <item
+            android:id="@+id/nav_tcc"
+            android:icon="@drawable/ic_school_black_24dp"
+            android:title="Tcc"
+            tools:ignore="HardcodedText" />
+        <item
+            android:id="@+id/nav_sair"
+            android:icon="@drawable/ic_exit_to_app_branco_24dp"
+            android:title="Sair"
+            tools:ignore="HardcodedText" />
+      <!--  <item
+            android:id="@+id/nav_compartilhar"
+            android:icon="@drawable/ic_menu_share"
+            android:title="Compartilhe"
+            tools:ignore="HardcodedText" />
+        <item
+            android:id="@+id/nav_depoimento"
+            android:icon="@drawable/ic_message_black_24dp"
+            android:title="Depoimento"
+            tools:ignore="HardcodedText" /> -->
+
+</menu>

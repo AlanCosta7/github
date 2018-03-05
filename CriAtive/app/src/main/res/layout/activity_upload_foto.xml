@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="16dp"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    android:layout_marginTop="16dp"
+    android:background="@color/colorSecundario"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context="br.com.juventudesociedade.criative.activity.DownloadActivity">
+
+
+    <ImageView
+        android:id="@+id/imagemCadFotoPerfil"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:contentDescription="Imagem foto perfil"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btnUpload"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:layout_marginTop="25dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="UPLOAD"
+        android:textColor="@android:color/white"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btnCancelar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:text="CANCELAR"
+        android:textColor="@android:color/white"
+        tools:ignore="HardcodedText" />
+</LinearLayout>
+

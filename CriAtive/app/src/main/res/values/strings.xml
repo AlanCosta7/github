@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">CriAtive</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Configurações</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_login">Login</string>
+    <string name="curso">Curso</string>
+    <string name="tarefa">Tarefas</string>
+    <string name="principal">Principal</string>
+    <string name="criative">CriAtive</string>
+    <string name="explorar_curso">Explorar Curso</string>
+    <string name="blog">Blog</string>
+    <string name="carta_de_amor">Carta de Amor</string>
+    <string name="tcc">TCC</string>
+    <string name="comunicação">Comunicação</string>
+    <string name="compartilhe">Compartilhe</string>
+    <string name="depoimento">Depoimento</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Senha</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="download_success">Download finished</string>
+    <string name="download_failure">Download failure</string>
+    <string name="progress_downloading">Downloading…</string>
+    <string name="add_usuario">Add Usuario</string>
+    <string name="desconectar">Desconectar</string>
+    <string name="title_activity_introducao">IntroducaoActivity</string>
+    <string name="title_activity_pagamento">PagamentoActivity</string>
+
+    <string name="banner_ad_unit_id">ca-app-pub-8969491517623347~1039180704</string>
+
+    <string name="button_buy">Comprar</string>
+    <string name="button_buying">"Processando pagamento…"</string>
+    <string name="assine_j">Assine já!</string>
+    <string name="cart_o_visa">Cartão VISA</string>
+    <string name="cart_o_master_card">Cartão Master Card</string>
+    <string name="n_mero_do_cart_o">Número do cartão</string>
+    <string name="nome_do_propriet_rio_cart_o">Nome do proprietário cartão</string>
+
+</resources>
